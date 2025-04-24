@@ -1,11 +1,14 @@
 import pandas as pd
 
-# Carrega e ordena
+# Carrega o arquivo CSV
 arquivo_csv = "C:/pablo/fatura04.csv"
 df = pd.read_csv(arquivo_csv)
 
-# Ordenar
-df_sorted = df.sort_values(by='amount', ascending=False)
+# Agrupar por 'title' e somar os valores
+df_grouped = df.groupby('title', as_index=False).agg({'date': 'first', 'amount': 'sum'})
+
+# Ordenar os dados em ordem decrescente pelo valor total de 'amount'
+df_sorted = df_grouped.sort_values(by='amount', ascending=False)
 
 # Criar string formatada com espaçamento
 espacamento = []
