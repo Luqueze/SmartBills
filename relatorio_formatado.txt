@@ -1,0 +1,69 @@
+Date           Title                                            Amount
+----------------------------------------------------------------------
+2025-04-05     Steamgames.Com**                                 206.24
+2025-03-24     Kei Cozinha Japonesa                             195.02
+2025-03-16     Pg *Supley Laboratorio - Parcela 2/2             184.10
+2025-04-11     Cuidar Odontologia                               180.00
+2025-03-16     Hub*Kabum - Parcela 9/10                         155.55
+2025-03-29     Lp Underground                                   149.92
+2025-04-06     Supermercado e Padaria                           147.62
+2025-04-07     Pg *Supley Laboratorio                           105.22
+2025-04-12     Drogaria Araujo                                   82.59
+2025-04-04     Privalia Servicos de I                            79.51
+2025-03-30     Meu Prata Lj                                      69.99
+2025-03-30     Supermercado e Padaria                            69.00
+2025-03-16     Amazon - Parcela 10/10                            64.82
+2025-03-28     Amazon                                            59.40
+2025-03-16     Ifd*Delivery88                                    58.89
+2025-04-08     Pg *Supley Laboratorio - Parcela 1/2              58.62
+2025-04-10     Amazon - Parcela 1/7                              56.74
+2025-04-14     Ifd*Delivery88                                    53.90
+2025-03-17     Uber* Trip                                        51.46
+2025-04-12     Apple.Com/Bill                                    49.90
+2025-04-06     Meu Prata Lj                                      48.62
+2025-03-27     Amazon - Parcela 1/2                              47.13
+2025-03-16     Hub*Kabum - Parcela 10/10                         47.05
+2025-03-21     Zaete Cosmetica Buzios                            43.90
+2025-03-17     Star 200 Bh Airport T                             42.00
+2025-03-31     Google Youtubepremium                             41.90
+2025-03-27     Dm *Blizzard                                      39.90
+2025-03-18     Azul Linhas Aereas Bra                            39.00
+2025-04-06     Amazon                                            36.99
+2025-04-05     Supermercado e Padaria                            34.33
+2025-04-06     Amazon                                            29.90
+2025-04-13     Dm *Spotify                                       27.90
+2025-03-29     Amazon                                            27.81
+2025-03-24     Super Nosso                                       26.97
+2025-03-25     Meu Prata Lj                                      25.49
+2025-03-16     Amazon - Parcela 1/2                              25.28
+2025-04-01     Shopee *Tudodcor                                  24.97
+2025-04-03     Drogaria Leal - P.e                               24.24
+2025-03-21     Maria Maria Gelato                                24.00
+2025-03-24     Uber Uber *Trip Help.U                            21.54
+2025-03-16     Terabyteshop - Parcela 9/10                       21.25
+2025-03-18     Borelli                                           21.00
+2025-04-09     Meu Prata Lj                                      20.53
+2025-04-10     Uber Uber *One Help.Ub                            19.90
+2025-03-17     Google Clash Of Clans                             16.90
+2025-03-21     Steam Purchase                                    15.91
+2025-04-06     Uber* Trip                                        15.74
+2025-04-05     Amazon                                            14.99
+2025-03-16     Meu Prata Lj                                      13.41
+2025-04-01     Drogaria Leal - P.e                               13.12
+2025-03-30     Steamgames.Com                                    11.33
+2025-04-12     Uber Uber *Trip Help.U                            11.03
+2025-03-16     Cristinapapelaria                                 11.00
+2025-03-20     Cp *Amigao 49 Cabo Fri                             9.97
+2025-03-17     Mp *Melimais                                       9.90
+2025-04-11     Uber* Trip                                         8.79
+2025-03-20     Apple.Com/Bill                                     8.50
+2025-04-05     IOF de "Steamgames.Com"                            6.97
+2025-04-07     Ifd*Ifood Club                                     5.95
+2025-03-29     IOF de "Lp Underground"                            5.06
+2025-03-22     Steamgames.Com                                     3.65
+2025-03-21     IOF de "Steam Purchase"                            0.53
+2025-03-30     IOF de "Steamgames.Com"                            0.38
+2025-03-22     IOF de "Steamgames.Com"                            0.12
+2025-04-06     IOF de "Steamgames.Com"                           -6.89
+2025-04-06     Crédito de "Steamgames.Com"                     -206.24
+2025-03-24     Pagamento recebido                             -2029.88
