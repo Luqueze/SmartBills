@@ -1,25 +1,36 @@
+"""
+MIT License
+
+Copyright (c) 2025 Lucas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+(continua...)
+"""
+
+
 import pandas as pd
 import streamlit as st
 
-# Carrega o arquivo CSV
 st.title("SmartBill")
 st.markdown("After uploading a CSV file, " 
     "it will group the data by title and sum the amounts. " 
     "The results will be displayed in descending order.")
-arquivo_csv = st.file_uploader("", type=["csv"])
 
+arquivo_csv = st.file_uploader("", type=["csv"])
 if st.button("Enter"):
 
     if arquivo_csv is not None:
 
         df = pd.read_csv(arquivo_csv)
-        # Agrupar por 'title' e somar os valores
+        # Group by 'title' and sum the values
         df_grouped = df.groupby('title', as_index=False).agg({'date': 'first', 'amount': 'sum'})
 
-        # Ordenar os dados em ordem decrescente pelo valor total de 'amount'
+        # Sort the data in descending order by the total value of 'amount'.
         df_sorted = df_grouped.sort_values(by='amount', ascending=False)
 
-        # Criar string formatada com espaçamento
+        # Create a formatted string with spacing.
         espacamento = []
         espacamento.append(f"{'Date'.ljust(15)}{'Title'.ljust(40)}{'Amount'.rjust(15)}")
         espacamento.append("-" * 70)
