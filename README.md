@@ -1,7 +1,7 @@
 # SmartBills
 
 ## Overview
-SmartBills reads a CSV file, processes its data, and generates a formatted report saved as a `.txt` file. It groups entries by `title`, sums up the `amount` values, and organizes results in descending order.
+SmartBills reads a CSV file, processes its data, and presents the results in a table. It groups entries by `title`, sums up the `amount` values, and organizes results in descending order.
 This is a personal project developed to help me organize my finances more efficiently.
 
 ## Features
@@ -9,12 +9,13 @@ This is a personal project developed to help me organize my finances more effici
 - Groups by `title` while summing up `amount` values.
 - Keeps the first `date` occurrence for each title.
 - Sorts records in descending order by total amount.
-- Generates a properly formatted `.txt` report.
+- Shows the results in a table.
 
 ## Requirements
 Ensure you have:
 - Python 3.x installed.
 - Pandas library (`pip install pandas`).
+- Streamlit library (`pip install streamlit`)
 
 ## Installation
 Clone this repository and navigate to the project directory:
