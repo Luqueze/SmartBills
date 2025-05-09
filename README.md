@@ -1,7 +1,7 @@
-# Formatted Report Generator
+# SmartBills
 
 ## Overview
-This Python script reads a CSV file, processes its data, and generates a formatted report saved as a `.txt` file. It groups entries by `title`, sums up the `amount` values, and organizes results in descending order.
+SmartBills reads a CSV file, processes its data, and generates a formatted report saved as a `.txt` file. It groups entries by `title`, sums up the `amount` values, and organizes results in descending order.
 
 ## Features
 - Reads data from a CSV file (`example.csv`).
