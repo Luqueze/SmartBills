@@ -21,5 +21,5 @@ Ensure you have:
 Clone this repository and navigate to the project directory:
 
 ```sh
-git clone https://github.com/yourusername/repository-name.git
-cd repository-name
+git clone https://github.com/yourusername/SmartBills.git
+cd SmartBills
