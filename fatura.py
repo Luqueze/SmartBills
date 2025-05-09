@@ -2,8 +2,11 @@ import pandas as pd
 import streamlit as st
 
 # Carrega o arquivo CSV
-st.title("Csv Processing")
-arquivo_csv = st.file_uploader("Upload here: ", type=["csv"])
+st.title("SmartBill")
+st.markdown("After uploading a CSV file, " 
+    "it will group the data by title and sum the amounts. " 
+    "The results will be displayed in descending order.")
+arquivo_csv = st.file_uploader("", type=["csv"])
 
 if st.button("Enter"):
 
