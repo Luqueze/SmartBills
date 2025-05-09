@@ -4,8 +4,17 @@ import pandas as pd
 arquivo_csv = "C:/pablo/fatura04.csv"
 df = pd.read_csv(arquivo_csv)
 
-# Agrupar por 'title' e somar os valores
+# Conta quantas vezes cada título aparece
+title_counts = df['title'].value_counts()
+
+# Agrupa por 'title' e soma os valores
 df_grouped = df.groupby('title', as_index=False).agg({'date': 'first', 'amount': 'sum'})
+
+# Adiciona a contagem ao DataFrame agrupado
+df_grouped['count'] = df_grouped['title'].map(title_counts)
+
+# Remove a data se o título aparece mais de uma vez
+df_grouped['date'] = df_grouped.apply(lambda row: '' if row['count'] > 1 else row['date'], axis=1)
 
 # Ordenar os dados em ordem decrescente pelo valor total de 'amount'
 df_sorted = df_grouped.sort_values(by='amount', ascending=False)
