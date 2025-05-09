@@ -2,6 +2,7 @@
 
 ## Overview
 SmartBills reads a CSV file, processes its data, and generates a formatted report saved as a `.txt` file. It groups entries by `title`, sums up the `amount` values, and organizes results in descending order.
+This is a personal project developed to help me organize my finances more efficiently.
 
 ## Features
 - Reads data from a CSV file (`example.csv`).
