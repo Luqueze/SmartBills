@@ -43,11 +43,6 @@ if st.button("Enter"):
         # Sort the data in descending order by the total value of 'amount'.
         df_sorted = df_grouped.sort_values(by='amount', ascending=False)
 
-        # Create a formatted string with spacing.
-        espacamento = []
-        espacamento.append(f"{'Date'.ljust(15)}{'Title'.ljust(40)}{'Amount'.rjust(15)}")
-        espacamento.append("-" * 70)
-
         df_sorted = df_sorted[df_sorted['title'] != "Pagamento recebido"] 
 
         st.write("Values Organized in descending order:")
