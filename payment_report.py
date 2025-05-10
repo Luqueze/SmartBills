@@ -42,7 +42,9 @@ if st.button("Enter"):
 
         # Sort the data in descending order by the total value of 'amount'.
         df_sorted = df_grouped.sort_values(by='amount', ascending=False)
-
+        df_sorted['Categorias'] = ""
+        #st selectbox
+        
         df_sorted = df_sorted[df_sorted['title'] != "Pagamento recebido"] 
 
         st.write("Values Organized in descending order:")
