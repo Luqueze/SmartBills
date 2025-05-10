@@ -48,13 +48,7 @@ if st.button("Enter"):
         espacamento.append(f"{'Date'.ljust(15)}{'Title'.ljust(40)}{'Amount'.rjust(15)}")
         espacamento.append("-" * 70)
 
-        df_sorted = df_sorted[df_sorted['title'] != "Pagamento recebido"]
-
-        for index, row in df_sorted.iterrows():
-            data = str(row['date']).ljust(15)
-            titulo = str(row['title']).ljust(40)
-            valor = f"{row['amount']:.2f}".rjust(15)
-            espacamento.append(f"{data}{titulo}{valor}")
+        df_sorted = df_sorted[df_sorted['title'] != "Pagamento recebido"] 
 
         st.write("Values Organized in descending order:")
         st.write(df_sorted)
