@@ -1,2 +1,6 @@
 streamlit
 pandas
+openai
+python-dotenv
+plotly
+numpy
